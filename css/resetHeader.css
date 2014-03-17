@@ -1,0 +1,58 @@
+/*
+	reset the page header
+*/
+header {
+	position:static;
+	width:100%;
+	min-width:inherit;
+	height:auto;
+	padding:0;
+	font-size:20px;
+	font-weight:200;
+	line-height:1;
+	text-transform:none;
+	border-bottom:dotted;
+}
+header .logo {
+	float:left;
+	position:static;
+	color:black;
+	text-align:inherit;
+}
+header .logo p {
+	display:none;
+}
+nav {
+	float:right;
+	width:auto;
+	margin-top:0;
+	text-align:inherit;
+}
+nav a {
+	padding:0;
+}
+/*前面是让header样式复原*/
+
+#wrapper {
+	width:100%;
+}
+#wrapper header {
+	width:80%;
+	padding:10px;
+	margin:auto;
+}
+#wrapper .name {
+	font-size:40px;
+	font-weight:bold;
+}
+#wrapper .name:hover, #wrapper .name:focus {
+	color:#262626;
+}
+#wrapper nav a {
+	display:inline-block;
+	margin-left:20px;
+	line-height:60px;
+}
+
+/*之前为页面通用导航样式*/
+
